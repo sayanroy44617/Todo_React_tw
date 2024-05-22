@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e3e9ff; /* Replace with your desired background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Todoheader {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: #af7eeb;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 60px;
+  font-size: larger;
+  width: auto; /* Ensure header width is auto */
+}
+
+.TodoListComponent {
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  width: 30vw;
+  padding: 30px;
+  font-family: cursive, "Arial Narrow", Arial, sans-serif, Geneva, Tahoma,
+    sans-serif;
+  font-weight: 600;
+  color: #1f1f1f;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.TodoItemContainer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-align: left;
+}
+
+.TodoItem {
+  padding-left: 20px;
+}
+
+.TodoItem:hover {
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.RemoveButton,
+.AddTodo,
+.formButton {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: #af7eeb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.inputfield {
+  margin-bottom: 10px;
+}
+
+.formInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  text-align: left;
+}
+
+.deleteButton {
+  margin-left: auto;
+  border: none;
+  background-color: transparent;
+}
